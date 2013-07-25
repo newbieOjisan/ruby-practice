@@ -1,4 +1,3 @@
-
 puts "Input a number."
 number = gets.chomp.to_i
 while number > 1

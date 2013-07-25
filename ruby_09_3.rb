@@ -8,7 +8,7 @@ class Orange tree
   end
   
   def countTheOranges
-    puts 'オレンジは'+ @orangeCount + '個なっています。'
+    puts 'オレンジは' + @orangeCount + '個なっています。'
   end
   
   def pichAnOrange
@@ -21,7 +21,7 @@ class Orange tree
   end
     
   def height
-    puts '高さは'+@passedyear+'年分です。'  
+    puts '高さは' + @passedyear + '年分です。'
   end
   
   def oneYearPasses

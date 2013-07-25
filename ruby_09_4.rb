@@ -117,8 +117,8 @@ pet = Dragon.new 'Norbert'
 
 while true
    puts'ドラゴンの世話をせよ。feed/walk/putToBed/toss/rock'
-   command=gets.chomp
-   if command=="feed" or command=="walk" or command=="putToBed" or command=="toss" or command=="rock"
+   command = gets.chomp
+   if command == "feed" or command == "walk" or command == "putToBed" or command == "toss" or command == "rock"
       pet.method(command).call
    else
       puts "指定のコマンドを使ってください。"
