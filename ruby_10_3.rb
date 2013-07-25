@@ -8,6 +8,7 @@ def log explanation,&block
   puts indent + "… \"#{explanation}\"終了,返り値は：#{result}"
   $nestingDepth = $nestingDepth - 1
 end
+
 log '外ブロック' do
   log 'ある小さなブロック' do
     log 'ちっちゃなブロック' do

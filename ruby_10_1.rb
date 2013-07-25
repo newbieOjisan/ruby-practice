@@ -1,4 +1,3 @@
-
 def dong
    if Time.now.hour>12 
      pasttime = Time.now.hour - 12
@@ -10,7 +9,6 @@ def dong
    pasttime.times do
       puts 'DONG!'
    end
-
 end
 
 dong

@@ -1,4 +1,3 @@
-
 puts '何年'
 year = gets.chomp.to_i
 puts '何月'

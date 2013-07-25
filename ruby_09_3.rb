@@ -1,4 +1,3 @@
-
 class Orange tree
 
   def initialize

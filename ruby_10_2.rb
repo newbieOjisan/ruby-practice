@@ -1,4 +1,3 @@
-
 def log explanation,&block
   puts "開始 \"#{explanation}\"…"
   result = block.call
