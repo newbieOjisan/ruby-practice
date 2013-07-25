@@ -24,7 +24,7 @@ class Orangetree
   end
   
   def oneYearPasses
-    puts'１年経過します。'
+    puts '１年経過します。'
   end
 
   private

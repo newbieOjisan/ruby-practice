@@ -95,7 +95,6 @@ def englishNumber number
     numString = numString + onesPlace[write-1]
   end
 
-
   numString
 end
 
