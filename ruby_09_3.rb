@@ -1,4 +1,4 @@
-class Orange tree
+class Orangetree
 
   def initialize
     @orangeCount = 0
